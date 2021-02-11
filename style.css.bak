@@ -1,0 +1,140 @@
+.text-box {
+  height: 40px;
+  border-radius: 4px;
+  width: 275px;
+}
+.navbar {
+  overflow: hidden;
+  background-color : white;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.center {
+	display: block;
+	overflow: hidden;
+	padding-left: 500px;
+  margin-right: auto;
+}
+
+.dropdown .dropbtn {
+
+  font-size : 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bol;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color : blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.result {
+  height: 50px;
+  min-height: 10px;
+  border-radius: 4px;
+  width: 300px;
+}
+
+.button {
+  background-color: crimson;
+  height: 50px;
+  width: 90px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+.fieldset {
+  width: 350px;
+  background-color: #f0eedc;
+	border-radius: 8px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: rgb(114, 56, 56);
+}
+
+.navigation {
+	overflow: hidden;
+	padding: 10px;
+	background-color: white;
+	font-size: 20px;
+	text-align: right;
+	line-height: 40px;
+}
+
+.navigation a {
+margin:auto;
+color: black;
+font-weight: bold;
+text-decoration: none;
+padding: 12px;
+}
+
+.navigation a:hover {
+color : blue;
+border-radius: 5px;
+
+}
+.navigation a:active {
+
+color: white;
+border-radius: 5px;
+
+}
+.navigation home {
+text-align: left;
+color: blue
+}

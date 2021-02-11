@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa to Binary Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./baseconverter.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Number Conversion 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="binarytodecimal.html">Binary To Decimal Converter</a>
+            <a href="binarytohexadecimal.html">Binary To Hex Converter</a>
+            <a href="binarytooctal.html">Binary To Octal Converter</a>
+            <a href="hexatodecimal.html"decimaltobinary.html">Decimal To Binary Converter</a>
+            <a href="decimaltohex.html">Decimal To Hex Converter</a>
+            <a href="decimaltooctal.html">Decimal To Octal Converter</a>
+            <a href="hexatobinary.html">Hex To Binary Converter</a>
+            <a href="hexatodecimal.html">Hex To Decimal Converter</a>
+            <a href="hexatooctal.html">Hex To Octal Converter</a>
+            <a href="octaltobinary.html">Octal To Binary Converter</a>
+            <a href="octaltodecimal.html">Octal To Decimal Converter</a>
+            <a href="octaltohexa.html">Octal To Hex Converter</a>
+          </div>
+        </div> 
+      </div>
+      
+
+    <section class="center">
+      <p class="base-conversion">
+        <fieldset class="fieldset"> 
+          <legend class="label">Base Conversion</legend>
+          <p class="label">Hexa Decimal to Binary Conversion</p>
+          <p><lable id="input" class="label">Enter Number:</lable></p>
+      <p><input id="input" class="text-box"placeholder="Eg:0XA" ></p>
+
+     <p><lable for='from' class="label">From base: </lable></p>
+     
+     <select name="From" id="from" class="text-box">
+          <option value=" ">Select</option>
+         <option value="binary">Binary</option>
+         <option value="decimal">Decimal</option>
+         <option value="hex">Hex</option>
+         <option value="octal">Octal</option>
+     </select>
+     
+
+
+     <p><label for='to' class="label">To base :</label></p>
+
+     <select name="To" id="to" class="text-box">
+      <option value=" ">Select</option>
+      <option value="binary">Binary</option>
+      <option value="decimal">Decimal</option>
+      <option value="hex">Hex</option>
+      <option value="octal">Octal</option>
+     </select>
+     <p><button type="button" class="button">Convert</button></p>
+     <p><lable id="output" class="label"> Result</lable></p>
+     <p><input id="output" placeholder="Result" class="result"></p>
+      </fieldset>
+      
+     
+      </p>
+       
+    </section>
+</body>
+</html>

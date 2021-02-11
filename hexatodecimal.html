@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexa tpo Decimal Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./baseconverter.js"></script>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Number Conversion 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="binarytodecimal.html">Binary To Decimal Converter</a>
+        <a href="binarytohexadecimal.html">Binary To Hex Converter</a>
+        <a href="binarytooctal.html">Binary To Octal Converter</a>
+        <a href="decimaltobinary.html">Decimal To Binary Converter</a>
+        <a href="decimaltohex.html">Decimal To Hex Converter</a>
+        <a href="decimaltooctal.html">Decimal To Octal Converter</a>
+        <a href="hexatobinary.html">Hex To Binary Converter</a>
+        <a href="hexatodecimal.html">Hex To Decimal Converter</a>
+        <a href="hexatooctal.html">Hex To Octal Converter</a>
+        <a href="octaltobinary.html">Octal To Binary Converter</a>
+        <a href="octaltodecimal.html">Octal To Decimal Converter</a>
+        <a href="octaltohexa.html">Octal To Hex Converter</a>
+      </div>
+    </div> 
+  </div>
+  
+
+<section class="wrapper">
+  <p class="base-conversion">
+    <form action="">
+      <fieldset class="fieldset"> 
+        <legend class="label">Base Conversion</legend>
+        <p><lable id="input" class="label">Enter Number:</lable></p>
+    <p><br><input id="input" class="text-box input-value" placeholder="Binary Number" ></p>
+
+   <p><br><lable for='from' class="label">From base: </lable></p>
+   
+   <select name="From" id="from" class="text-box from-type">
+        <option value=" ">Select</option>
+       <option value="binary">Binary</option>
+       <option value="decimal">Decimal</option>
+       <option value="hex">Hex</option>
+       <option value="octal">Octal</option>
+   </select>
+   
+
+
+   <p><br><label for='to' class="label">To base :</label></p>
+
+   <select name="To" id="to" class="text-box from-type">
+    <option value=" ">Select</option>
+    <option value="binary">Binary</option>
+    <option value="decimal">Decimal</option>
+    <option value="hex">Hex</option>
+    <option value="octal">Octal</option>
+   </select>
+   <p><button type="button" class="button">Convert</button>
+      <input type="reset" value="Reset" class="button">
+      <button type="button" class="button copy">Copy</button>
+   </p>
+   <p><br><lable id="output" class="label"> Result : </lable></p>
+   <p><br><input id="output" placeholder="Result" class="result text-box outputValue" readonly></p>
+    </fieldset>
+    </form>
+    
+  </p>
+ 
+
+   
+</section>
+<br>
+    <div class=above-footer>
+
+    </div>
+    <footer class="footer">
+        <span class="footer-copyright-wat">© UTILITY APPLICATIONS</span>
+        <span class="footer-copyright-divider">|</span>
+        <span class="footer-copyright-wat"> BASE CONVERTERS</span>
+        <span class="footer-copyright-divider">|</span>
+        <span class="footer-copyright-arr"> NO COPYRIGHTS</span>
+    </footer>
+  </div>
+</body>
+</html>
